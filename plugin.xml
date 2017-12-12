@@ -16,7 +16,7 @@
         <!--以下配置完全按照高德的指南进行配置，详见：http://lbs.amap.com/api/android-location-sdk/gettingstarted/-->
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <!--在AndroidManifest.xml的application标签中配置Key：-->
-            <meta-data android:name="com.amap.api.v2.apikey" android:value="$API_KEY">
+            <meta-data android:name="com.amap.api.v2.apikey" android:value="此处填写申请的KEY">
             </meta-data>
             <!--在application标签中声明service组件：-->
             <service android:name="com.amap.api.location.APSService"></service>
