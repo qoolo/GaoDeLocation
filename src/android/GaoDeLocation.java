@@ -17,7 +17,7 @@ import com.amap.api.location.AMapLocationClientOption.AMapLocationProtocol;
 import com.amap.api.location.AMapLocationListener;
 
 /**
- * @author zhaoying
+ * @author sunlk
  */
 public class GaoDeLocation extends CordovaPlugin {
     //声明AMapLocationClient类对象
@@ -47,7 +47,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 获取定位
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private void getCurrentPosition() {
         if (locationClient == null) {
@@ -60,7 +60,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 初始化定位
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private void initLocation() {
         //初始化client
@@ -74,7 +74,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 默认的定位参数
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private AMapLocationClientOption getDefaultOption() {
         AMapLocationClientOption mOption = new AMapLocationClientOption();
@@ -163,7 +163,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 开始定位
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private void startLocation() {
         // 启动定位
@@ -173,7 +173,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 停止定位
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private void stopLocation() {
         // 停止定位
@@ -183,7 +183,7 @@ public class GaoDeLocation extends CordovaPlugin {
     /**
      * 销毁定位
      *
-     * @author zhaoying
+     * @author sunlk
      */
     private void destroyLocation() {
         if (null != locationClient) {
