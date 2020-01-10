@@ -102,7 +102,6 @@ public class GaoDeLocation extends CordovaPlugin {
                 JSONObject json = new JSONObject();
                 if (null != location) {
                     //解析定位结果
-                    //errCode等于0代表定位成功，其他的为定位失败，具体的可以参照官网定位错误码说明
                     if (location.getErrorCode() == 0) {
                         json.put("status", "定位成功");
                         //定位类型
